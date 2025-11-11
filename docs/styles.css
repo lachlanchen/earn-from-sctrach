@@ -115,8 +115,15 @@ body::before {
   text-decoration: none;
   font-weight: 600;
   color: var(--text);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: lowercase;
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+}
+
+.logo span,
+.logo strong {
+  display: inline-block;
+  line-height: 1;
 }
 
 .logo strong {
@@ -124,6 +131,7 @@ body::before {
   -webkit-background-clip: text;
   color: transparent;
   margin-left: 0.25rem;
+  font-weight: 700;
 }
 
 .nav-links {
