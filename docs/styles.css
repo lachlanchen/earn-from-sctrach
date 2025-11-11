@@ -233,37 +233,34 @@ body::before {
 }
 
 .highlight {
-  background: var(--accent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
   position: relative;
-  z-index: 1;
-}
-
-.hero-copy h1 span.highlight {
   display: inline-block;
+  color: #fff3ff;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
-.highlight::after {
+.highlight::before {
   content: "";
   position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  opacity: 0.08;
+  inset: -0.2em -0.35em;
   background: var(--accent);
+  opacity: 0.45;
+  border-radius: 999px;
   filter: blur(18px);
   z-index: -1;
   pointer-events: none;
 }
 
-@supports not (-webkit-background-clip: text) {
-  .highlight {
-    color: #ffecff;
-    background: none;
-  }
+.highlight::after {
+  content: "";
+  position: absolute;
+  inset: -0.1em -0.2em;
+  border-radius: 999px;
+  background: linear-gradient(120deg, rgba(102, 240, 255, 0.25), rgba(196, 113, 255, 0.15), rgba(255, 184, 210, 0.28));
+  opacity: 0.35;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .eyebrow {
