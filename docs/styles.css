@@ -140,6 +140,50 @@ body::before {
   transition: color 0.2s ease;
 }
 
+.language-switch {
+  position: relative;
+}
+
+.language-switch select {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font: inherit;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.language-switch::after {
+  content: "⌄";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--muted);
+}
+
+.language-switch select:focus-visible {
+  outline: none;
+  border-color: rgba(102, 240, 255, 0.6);
+  box-shadow: 0 0 0 2px rgba(102, 240, 255, 0.2);
+}
+
+.floating-language {
+  position: fixed;
+  top: 1.5rem;
+  right: clamp(1rem, 3vw, 3rem);
+  z-index: 10;
+  box-shadow: 0 15px 40px rgba(5, 6, 10, 0.45);
+}
+
+.floating-language select {
+  backdrop-filter: blur(18px);
+}
+
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -193,6 +237,18 @@ body::before {
   text-transform: uppercase;
   font-size: 0.75rem;
   color: var(--muted);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
 }
 
 .hero-actions {
@@ -653,6 +709,35 @@ input[type="email"]:focus {
   transition: transform 0.8s ease;
 }
 
+html[dir="rtl"] body {
+  direction: rtl;
+}
+
+html[dir="rtl"] .nav-links {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+html[dir="rtl"] .hero-copy,
+html[dir="rtl"] .section,
+html[dir="rtl"] .card,
+html[dir="rtl"] .idea-card,
+html[dir="rtl"] .cta-panel,
+html[dir="rtl"] .footer,
+html[dir="rtl"] .play-stats {
+  text-align: right;
+}
+
+html[dir="rtl"] .language-switch::after {
+  left: 1rem;
+  right: auto;
+}
+
+html[dir="rtl"] .language-switch select {
+  padding: 0.6rem 1rem 0.6rem 2.5rem;
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   .top-nav {
     flex-direction: column;
@@ -661,6 +746,21 @@ input[type="email"]:focus {
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .language-switch {
+    width: 100%;
+  }
+
+  .language-switch select {
+    width: 100%;
+    text-align: center;
+  }
+
+  .floating-language {
+    position: static;
+    box-shadow: none;
+    margin-top: 1rem;
   }
 
   .playground,
