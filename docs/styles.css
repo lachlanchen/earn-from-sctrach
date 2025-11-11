@@ -235,7 +235,35 @@ body::before {
 .highlight {
   background: var(--accent);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-copy h1 span.highlight {
+  display: inline-block;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  opacity: 0.08;
+  background: var(--accent);
+  filter: blur(18px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@supports not (-webkit-background-clip: text) {
+  .highlight {
+    color: #ffecff;
+    background: none;
+  }
 }
 
 .eyebrow {
