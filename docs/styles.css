@@ -221,6 +221,10 @@ body::before {
   margin: 0.5rem 0 1rem;
 }
 
+.hero-copy h1 span {
+  display: block;
+}
+
 .hero-copy p {
   color: var(--muted);
   max-width: 520px;
