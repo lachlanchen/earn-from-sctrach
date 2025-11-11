@@ -8,7 +8,7 @@ Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn Fr
 
 ## ✨ Highlights
 
-- **Hero narrative** that introduces Earn From Scratch, Lazy Earn, and Lazy Money through a luxe neon aesthetic.
+- **Hero narrative** that introduces Lazy Money, Lazy Earn, and Earn From Scratch through a luxe neon aesthetic.
 - **Modular sections** (glass cards, idea grid, CTA ritual) backed by `docs/index.html`, `docs/styles.css`, and `docs/script.js`.
 - **Interactive extras**: animated stats, parallax drifts, lazy idea generator, smooth scrolling, reveal-on-scroll effects.
 - **GitHub Pages ready**: everything lives under `docs/`, so `main /docs` can be published with a single toggle.
