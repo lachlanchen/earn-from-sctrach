@@ -40,17 +40,40 @@ Everything else (assets/fonts) is loaded from public CDNs, so deployments stay l
 
 ## 📈 Investment Research Vault
 
-- `investment/high-growth-stocks.md` — full Markdown brief on nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software.
-- `investment_pdfs/high-growth-stocks/high-growth-stocks.pdf` — beautifully typeset PDF (authored as **LazyingArt**) generated via Pandoc → LaTeX (XeLaTeX). Recompile with:
-
-  ```bash
-  pandoc investment/high-growth-stocks.md \
-    -s -V author="LazyingArt" -V title="High-Growth U.S. Stocks" \
-    -o investment_pdfs/high-growth-stocks/high-growth-stocks.tex
-  cd investment_pdfs/high-growth-stocks && xelatex high-growth-stocks.tex
-  ```
-
-Feel free to use the PDF as a downloadable handout or embed it in other LazyingArt properties.
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Asset</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Details</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Reuse / Build</th>
+  </tr>
+  <tr>
+    <td style="padding:10px 8px;"><strong>Markdown Dossier</strong><br/><code>investment/high-growth-stocks.md</code></td>
+    <td style="padding:10px 8px;">
+      Full narrative brief on nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software. Includes ranking tables, catalysts, and sources.
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">View on GitHub →</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px 8px;"><strong>PDF Handout</strong><br/><code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code></td>
+    <td style="padding:10px 8px;">
+      LazyingArt-branded, XeLaTeX typeset report (6 pages) perfect for sharing or embedding. Author signature: <em>LazyingArt</em>.
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://raw.githubusercontent.com/lachlanchen/LazyEarn/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Download PDF →</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px 8px;"><strong>Build Recipe</strong></td>
+    <td style="padding:10px 8px;" colspan="2">
+      <pre><code>pandoc investment/high-growth-stocks.md \
+  -s -V author="LazyingArt" -V title="High-Growth U.S. Stocks" \
+  -o investment_pdfs/high-growth-stocks/high-growth-stocks.tex
+cd investment_pdfs/high-growth-stocks && xelatex high-growth-stocks.tex</code></pre>
+    </td>
+  </tr>
+</table>
 
 ---
 
