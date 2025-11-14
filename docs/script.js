@@ -100,10 +100,6 @@ const fallbackStrings = {
   "research.stat1": `tickers`,
   "research.stat2": `ranking tables`,
   "research.stat3": `page PDF`,
-  "pdf.tag": `Research Viewer`,
-  "pdf.heading": `High-growth dossier preview`,
-  "pdf.copy": `Browse the PDF right here—no new tab required. Use the buttons above to download or jump back to the Markdown brief whenever you want.`,
-  "pdf.close": `Hide viewer`,
   "form.success": `Invite sent to {{email}}. Expect a lazy hello soon.`,
 };
 
@@ -139,10 +135,6 @@ const ideaOutput = document.querySelector(".idea-output");
 const languageSelect = document.getElementById("language-select");
 const form = document.querySelector(".cta-form");
 const parallaxItems = document.querySelectorAll(".orb, .hero-card");
-const viewPdfButtons = document.querySelectorAll(".view-pdf");
-const pdfSection = document.querySelector(".pdf-viewer");
-const pdfFrame = document.getElementById("pdfFrame");
-const closePdfButton = document.querySelector(".close-pdf");
 
 (async function initLazyEarn() {
   await loadTranslations();
@@ -152,7 +144,6 @@ const closePdfButton = document.querySelector(".close-pdf");
   setupSmoothScroll();
   setupObserver();
   setupParallax();
-  setupPdfViewer();
   setFooterYear();
 })();
 
@@ -385,35 +376,6 @@ function setupParallax() {
     const y = (event.clientY / window.innerHeight - 0.5) * 20;
     parallaxItems.forEach((item) => {
       item.style.transform = `translate(${x * 0.8}px, ${y * 0.8}px)`;
-    });
-  });
-}
-
-function setupPdfViewer() {
-  if (!pdfSection || !pdfFrame) return;
-
-  const revealPdf = (url) => {
-    if (!url) return;
-    if (pdfFrame.getAttribute("src") !== url) {
-      pdfFrame.setAttribute("src", url);
-    }
-    pdfSection.classList.add("visible");
-    pdfSection.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  viewPdfButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const url = btn.dataset.pdf;
-      revealPdf(url);
-    });
-  });
-
-  closePdfButton?.addEventListener("click", () => {
-    pdfSection.classList.remove("visible");
-    pdfFrame.setAttribute("src", "");
-    document.getElementById("research")?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
     });
   });
 }
