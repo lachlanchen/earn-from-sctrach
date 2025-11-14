@@ -43,7 +43,8 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
       <code>investment/high-growth-stocks.md</code>
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a><br/>
+      <a href="https://earn.lazying.art/#pdf-viewer">View on-site →</a><br/>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open on GitHub →</a><br/>
       <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
     </td>
   </tr>
