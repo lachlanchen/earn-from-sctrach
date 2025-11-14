@@ -1,67 +1,58 @@
 # LazyEarn — Lazy Money Lab + Earn From Scratch
 
-Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn From Scratch** playbook with the **Lazy Earn / Lazy Money** philosophy. Think of it as a lounge for effortless money ideas plus a research vault for high-upside experiments.
+Earn.lazying.art is a cinematic field guide for anyone who wants money to feel like a slow ritual instead of a sprint. The site shows three layers—**Lazy Money**, **Lazy Earn**, **Earn From Scratch**—and the repo carries those stories forward with research drops you can remix.
 
 > _“Build less. Live more.”_ — LazyEarn ethos
 
 ---
 
-## 🪄 Philosophy
+## 🛋️ Lazy money ideas
 
-1. **Lazy Money first.** Imagine the fully-automated, high-yield loop, then reverse-engineer the gentle steps that support it (Lazy Earn → Earn From Scratch) only where friction appears.
-2. **Vibes over hustle.** Each surface—glass panels, hovering stats, animated idea cards—should feel like a serene deck, not a dashboard screaming KPIs.
-3. **Research as ritual.** Every brief, from lazy money blueprints to high-growth equity dossiers, is written with the same indulgent language as the landing page so financial strategy feels expressive, not clinical.
-
----
-
-## ✨ Highlights
-
-- **Hero narrative** that introduces Lazy Money, Lazy Earn, and Earn From Scratch through a luxe neon aesthetic.
-- **Modular sections** (glass cards, idea grid, CTA ritual) backed by `docs/index.html`, `docs/styles.css`, and `docs/script.js`.
-- **Interactive extras**: animated stats, parallax drifts, lazy idea generator, smooth scrolling, reveal-on-scroll effects.
-- **GitHub Pages ready**: everything lives under `docs/`, so `main /docs` can be published with a single toggle.
+- **Circle the flow before the work.** Dream up the most indulgent income loop possible, then add only the steps that keep it humming.
+- **Design like a gallery.** Glass panels, hovering stats, looping gradients—every visual is there to slow your breathing and make planning money feel poetic.
+- **Curate research as a lounge drop.** Reports read like the landing page—warm, conversational, indulgent—so you can share them with friends or investors without sounding like a spreadsheet.
 
 ---
 
-## 🧭 Experience map
+## 🧭 What’s inside the site
 
-| Section | What the visitor feels |
+| Section | Energy |
 | --- | --- |
-| **Lazy Money Lab** | Big-picture loop showing how money flows while you chill. |
-| **Lazy Earn Stack** | Systems thinking: automation rituals, idea vaults, and a relaxation index. |
-| **Earn From Scratch** | Spark → Craft → Stretch framework for people starting from zero. |
-| **Idea Playground** | Interactive generator that spits out new lazy earn experiments on click. |
-| **Research Drop** | Fresh as of today: a high-growth equities dossier (see below) with PDF + Markdown access. |
+| **Lazy Money Lab** | Overview of how money can glide in while you rest—think stacked loops, not tasks. |
+| **Lazy Earn Stack** | Systems map for automations, idea vaults, and the relaxation index. |
+| **Earn From Scratch** | Spark → Craft → Stretch playbook for people starting from zero but refusing grind culture. |
+| **Idea Playground** | Interactive generator that spits new lazy earn experiments every time you tap. |
+| **Research Drop** | Living shelf for written briefs; currently featuring a high-growth equities dossier. |
 
-## 📈 Investment Research Vault
+---
+
+## 📈 Investment research vault
 
 <table style="width:100%; border-collapse:collapse;">
   <tr>
     <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Asset</th>
-    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Details</th>
-    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Reuse / Build</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">What you get</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Link</th>
   </tr>
   <tr>
     <td style="padding:10px 8px;"><strong>Markdown Dossier</strong><br/><code>investment/high-growth-stocks.md</code></td>
     <td style="padding:10px 8px;">
-      Full narrative brief on nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software. Includes ranking tables, catalysts, and sources.
+      Nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software. Includes narrative blurbs, ranking tables, upside notes, and sources.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">View on GitHub →</a>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">Read the brief →</a>
     </td>
   </tr>
   <tr>
     <td style="padding:10px 8px;"><strong>PDF Handout</strong><br/><code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code></td>
     <td style="padding:10px 8px;">
-      LazyingArt-branded, XeLaTeX typeset report (6 pages) perfect for sharing or embedding. Author signature: <em>LazyingArt</em>.
+      LazyingArt-branded, 6-page PDF—perfect for sharing with friends or tucking into your notion vault.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">View PDF →</a>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a>
     </td>
   </tr>
 </table>
-
-_Need to regenerate?_ Run the Pandoc → XeLaTeX command shown inside `investment/high-growth-stocks.md`.
 
 ---
 
