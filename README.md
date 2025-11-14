@@ -35,18 +35,24 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
     <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Link</th>
   </tr>
   <tr>
-    <td style="padding:10px 8px;"><strong>Markdown Dossier</strong><br/><code>investment/high-growth-stocks.md</code></td>
     <td style="padding:10px 8px;">
-      Nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software. Includes narrative blurbs, ranking tables, upside notes, and sources.
+      <strong>High-Growth Markdown Brief</strong><br/>
+      <code>investment/high-growth-stocks.md</code>
+    </td>
+    <td style="padding:10px 8px;">
+      Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semis, clean energy, cloud). Includes ranking tables, upside/bull cases, and annotated sources.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">Read the brief →</a>
     </td>
   </tr>
   <tr>
-    <td style="padding:10px 8px;"><strong>PDF Handout</strong><br/><code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code></td>
     <td style="padding:10px 8px;">
-      LazyingArt-branded, 6-page PDF—perfect for sharing with friends or tucking into your notion vault.
+      <strong>High-Growth PDF</strong><br/>
+      <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
+    </td>
+    <td style="padding:10px 8px;">
+      6-page spread designed for sharing or presenting alongside the website’s Lazy Money narrative.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a>
