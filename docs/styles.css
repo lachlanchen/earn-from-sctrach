@@ -520,6 +520,47 @@ body::before {
   margin-top: 0.75rem;
 }
 
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.research-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.report-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.report-card {
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 2rem;
+  background: rgba(5, 6, 10, 0.6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.report-card p {
+  color: var(--muted);
+}
+
+.report-stats {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
 .lazy-meter {
   background: rgba(5, 6, 10, 0.6);
   border: 1px solid var(--border);
@@ -785,6 +826,10 @@ html[dir="rtl"] .language-switch select {
 
   .nav-links {
     justify-content: center;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
   }
 
   .nav-actions {

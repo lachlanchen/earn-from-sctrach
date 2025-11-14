@@ -38,6 +38,20 @@ docs/
 
 Everything else (assets/fonts) is loaded from public CDNs, so deployments stay lightweight.
 
+## 📈 Investment Research Vault
+
+- `investment/high-growth-stocks.md` — full Markdown brief on nine high-growth U.S. equities across AI, biotech, semiconductors, clean energy, and cloud software.
+- `investment_pdfs/high-growth-stocks/high-growth-stocks.pdf` — beautifully typeset PDF (authored as **LazyingArt**) generated via Pandoc → LaTeX (XeLaTeX). Recompile with:
+
+  ```bash
+  pandoc investment/high-growth-stocks.md \
+    -s -V author="LazyingArt" -V title="High-Growth U.S. Stocks" \
+    -o investment_pdfs/high-growth-stocks/high-growth-stocks.tex
+  cd investment_pdfs/high-growth-stocks && xelatex high-growth-stocks.tex
+  ```
+
+Feel free to use the PDF as a downloadable handout or embed it in other LazyingArt properties.
+
 ---
 
 ## 🌐 Deploy to GitHub Pages
