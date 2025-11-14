@@ -52,7 +52,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
       <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
     </td>
     <td style="padding:10px 8px;">
-      6-page spread designed for sharing or presenting alongside the website’s Lazy Money narrative.
+      Six-page spread distilling the thesis—tables, upside rankings, and narrative blurbs—ready to drop into decks, newsletters, or investor updates.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a>
