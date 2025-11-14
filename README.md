@@ -30,32 +30,21 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
 
 <table style="width:100%; border-collapse:collapse;">
   <tr>
-    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Asset</th>
     <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">What you get</th>
-    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Link</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">Markdown</th>
+    <th align="left" style="padding:8px; border-bottom:1px solid #ccc;">PDF</th>
   </tr>
   <tr>
     <td style="padding:10px 8px;">
-      <strong>High-Growth Markdown Brief</strong><br/>
+      Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semiconductors, clean energy, cloud) with upside tables and annotated sources.
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">Read the brief →</a><br/>
       <code>investment/high-growth-stocks.md</code>
     </td>
-    <td style="padding:10px 8px;">
-      Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semis, clean energy, cloud). Includes ranking tables, upside/bull cases, and annotated sources.
-    </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">Read the brief →</a>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:10px 8px;">
-      <strong>High-Growth PDF</strong><br/>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a><br/>
       <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
-    </td>
-    <td style="padding:10px 8px;">
-      Six-page spread distilling the thesis—tables, upside rankings, and narrative blurbs—ready to drop into decks, newsletters, or investor updates.
-    </td>
-    <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open the PDF →</a>
     </td>
   </tr>
 </table>
