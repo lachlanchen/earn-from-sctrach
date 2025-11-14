@@ -8,9 +8,9 @@ Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn Fr
 
 ## 🪄 Philosophy
 
-1. **Lazy Money first.** Start from dreamy, fully-automated income loops, then backfill the steps (Lazy Earn → Earn From Scratch) only where needed.
-2. **Show, don’t spec.** Every section of the site feels like a luxury deck: glass cards, animated stats, interactive idea generators, and now an investment brief.
-3. **Research is art.** Reports (like the high-growth equities dossier) are written with the same indulgent tone as the landing page so money talk feels calm and creative.
+1. **Lazy Money first.** Imagine the fully-automated, high-yield loop, then reverse-engineer the gentle steps that support it (Lazy Earn → Earn From Scratch) only where friction appears.
+2. **Vibes over hustle.** Each surface—glass panels, hovering stats, animated idea cards—should feel like a serene deck, not a dashboard screaming KPIs.
+3. **Research as ritual.** Every brief, from lazy money blueprints to high-growth equity dossiers, is written with the same indulgent language as the landing page so financial strategy feels expressive, not clinical.
 
 ---
 
@@ -62,38 +62,6 @@ Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn Fr
 </table>
 
 _Need to regenerate?_ Run the Pandoc → XeLaTeX command shown inside `investment/high-growth-stocks.md`.
-
----
-
-## ⚙️ Light dev notes
-
-- **Clone + preview**
-
-  ```bash
-  git clone git@github.com:lachlanchen/LazyEarn.git
-  cd LazyEarn && open docs/index.html
-  ```
-
-- **Structure**
-
-  ```
-  docs/          # HTML/CSS/JS experience
-  investment/    # Markdown briefs
-  investment_pdfs/ # LaTeX + PDF artifacts
-  ```
-
-- **Deploy**
-  - Push to `main`, set Pages source to `main / docs`, optionally wire up `earn.lazying.art` via CNAME. Done.
-
----
-
-## 🧠 Remix ideas
-
-LazyEarn is intentionally copy-friendly:
-
-- Swap out copy in `#earn-from-scratch`, `#lazy-earn`, or `#lazy-money` sections to spotlight new experiments.
-- Extend the generator by editing the `ideas` array in `docs/script.js`.
-- Adjust colors or type ramps via CSS variables at the top of `docs/styles.css`.
 
 ---
 
