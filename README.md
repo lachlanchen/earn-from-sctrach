@@ -1,4 +1,4 @@
-# LazyEarn — Earn From Scratch + Lazy Money Lab
+# LazyEarn — Lazy Money Lab + Earn From Scratch
 
 Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn From Scratch** playbook with the **Lazy Earn / Lazy Money** philosophy. This repo hosts the static site that lets visitors explore lazy income concepts, idea generators, and a newsletter-style CTA without touching a backend.
 
