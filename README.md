@@ -1,8 +1,16 @@
 # LazyEarn — Lazy Money Lab + Earn From Scratch
 
-Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn From Scratch** playbook with the **Lazy Earn / Lazy Money** philosophy. This repo hosts the static site that lets visitors explore lazy income concepts, idea generators, and a newsletter-style CTA without touching a backend.
+Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn From Scratch** playbook with the **Lazy Earn / Lazy Money** philosophy. Think of it as a lounge for effortless money ideas plus a research vault for high-upside experiments.
 
 > _“Build less. Live more.”_ — LazyEarn ethos
+
+---
+
+## 🪄 Philosophy
+
+1. **Lazy Money first.** Start from dreamy, fully-automated income loops, then backfill the steps (Lazy Earn → Earn From Scratch) only where needed.
+2. **Show, don’t spec.** Every section of the site feels like a luxury deck: glass cards, animated stats, interactive idea generators, and now an investment brief.
+3. **Research is art.** Reports (like the high-growth equities dossier) are written with the same indulgent tone as the landing page so money talk feels calm and creative.
 
 ---
 
@@ -15,28 +23,15 @@ Earn.lazying.art is a cinematic GitHub Pages experience that mixes the **Earn Fr
 
 ---
 
-## 🚀 Quick start
+## 🧭 Experience map
 
-```bash
-git clone git@github.com:lachlanchen/LazyEarn.git
-cd LazyEarn
-open docs/index.html   # macOS (or use your browser of choice)
-```
-
-No build step needed—plain HTML, CSS, and vanilla JS.
-
----
-
-## 🧬 Project structure
-
-```
-docs/
-├── index.html   # Page content + sections
-├── styles.css   # Cosmic glass aesthetic, responsive layout, animations
-└── script.js    # Idea generator, smooth scrolling, parallax, CTA helper
-```
-
-Everything else (assets/fonts) is loaded from public CDNs, so deployments stay lightweight.
+| Section | What the visitor feels |
+| --- | --- |
+| **Lazy Money Lab** | Big-picture loop showing how money flows while you chill. |
+| **Lazy Earn Stack** | Systems thinking: automation rituals, idea vaults, and a relaxation index. |
+| **Earn From Scratch** | Spark → Craft → Stretch framework for people starting from zero. |
+| **Idea Playground** | Interactive generator that spits out new lazy earn experiments on click. |
+| **Research Drop** | Fresh as of today: a high-growth equities dossier (see below) with PDF + Markdown access. |
 
 ## 📈 Investment Research Vault
 
@@ -64,25 +59,31 @@ Everything else (assets/fonts) is loaded from public CDNs, so deployments stay l
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">View PDF →</a>
     </td>
   </tr>
-  <tr>
-    <td style="padding:10px 8px;"><strong>Build Recipe</strong></td>
-    <td style="padding:10px 8px;" colspan="2">
-      <pre><code>pandoc investment/high-growth-stocks.md \
-  -s -V author="LazyingArt" -V title="High-Growth U.S. Stocks" \
-  -o investment_pdfs/high-growth-stocks/high-growth-stocks.tex
-cd investment_pdfs/high-growth-stocks && xelatex high-growth-stocks.tex</code></pre>
-    </td>
-  </tr>
 </table>
+
+_Need to regenerate?_ Run the Pandoc → XeLaTeX command shown inside `investment/high-growth-stocks.md`.
 
 ---
 
-## 🌐 Deploy to GitHub Pages
+## ⚙️ Light dev notes
 
-1. Push to `main`.
-2. In the repo → **Settings → Pages**, pick `Branch: main /docs`.
-3. (Optional) Add `earn.lazying.art` as the custom domain and point your DNS CNAME to `lachlanchen.github.io`.
-4. Wait ~2 minutes for the build, then enjoy the lazy glow.
+- **Clone + preview**
+
+  ```bash
+  git clone git@github.com:lachlanchen/LazyEarn.git
+  cd LazyEarn && open docs/index.html
+  ```
+
+- **Structure**
+
+  ```
+  docs/          # HTML/CSS/JS experience
+  investment/    # Markdown briefs
+  investment_pdfs/ # LaTeX + PDF artifacts
+  ```
+
+- **Deploy**
+  - Push to `main`, set Pages source to `main / docs`, optionally wire up `earn.lazying.art` via CNAME. Done.
 
 ---
 
