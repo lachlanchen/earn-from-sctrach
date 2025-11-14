@@ -61,7 +61,7 @@ Everything else (assets/fonts) is loaded from public CDNs, so deployments stay l
       LazyingArt-branded, XeLaTeX typeset report (6 pages) perfect for sharing or embedding. Author signature: <em>LazyingArt</em>.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://raw.githubusercontent.com/lachlanchen/LazyEarn/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Download PDF →</a>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">View PDF →</a>
     </td>
   </tr>
   <tr>
