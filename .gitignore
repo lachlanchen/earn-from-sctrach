@@ -1,0 +1,10 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Ignore in-repo LaTeX build folders (but keep .gitkeep so dirs exist)
+investment_pdfs/**/build/*
+!investment_pdfs/**/build/.gitkeep
