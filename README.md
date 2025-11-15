@@ -67,7 +67,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom_zh.md">Markdown →</a>
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://earn.lazying.art/pdf-viewer.html#financial-freedom-zh">PDF →</a>
+      <a href="https://earn.lazying.art/pdf-viewer.html?file=financial-freedom-zh">PDF →</a>
     </td>
   </tr>
 </table>
