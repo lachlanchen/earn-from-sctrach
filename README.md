@@ -49,13 +49,25 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
   <tr>
     <td style="padding:10px 8px;">
       <strong>Financial Freedom Playbook</strong><br/>
-      Timeless principles + modern strategies for building passive income, capital allocation, and quarterly rituals that keep Lazy Money goals on track.
+      Timeless principles blended with modern automation ideas—capital allocation tables, quarterly rituals, and name ideas for future Lazy Money drops.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom.md">Markdown →</a>
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://earn.lazying.art/pdf-viewer.html#financial-freedom">PDF →</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px 8px;">
+      <strong>Financial Freedom Playbook · 中文</strong><br/>
+      中文长篇：用母语阐述理性消费、复利投资、多元收入与自动化工具的结合，外加 Lazy Money 式的资本分配和季度仪式。
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom_zh.md">Markdown →</a>
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://earn.lazying.art/pdf-viewer.html#financial-freedom-zh">PDF →</a>
     </td>
   </tr>
 </table>

@@ -577,6 +577,37 @@ body::before {
   padding-top: 0;
 }
 
+.viewer-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.viewer-label {
+  flex: 1 1 280px;
+}
+
+.viewer-head h1 {
+  margin: 0;
+}
+
+.viewer-head .section-tag {
+  margin-bottom: 0.35rem;
+}
+
+.viewer-head .viewer-actions {
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.viewer-shell .section-intro {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
 .viewer-actions {
   display: flex;
   gap: 0.75rem;

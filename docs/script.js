@@ -157,6 +157,14 @@ const pdfEntries = {
     download: "investment_pdfs/financial_freedom/financial_freedom.pdf",
     markdown: "https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom.md",
   },
+  "financial-freedom-zh": {
+    title: "Financial freedom playbook · 中文",
+    description:
+      "中文版：母语讲解理性消费、复利投资、多元收入与自动化工具的结合，再附上 Lazy Money 风格的资本分配表与季度仪式。",
+    pdf: "investment_pdfs/financial_freedom_zh/financial_freedom_zh.pdf",
+    download: "investment_pdfs/financial_freedom_zh/financial_freedom_zh.pdf",
+    markdown: "https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom_zh.md",
+  },
 };
 
 (async function initLazyEarn() {

@@ -35,17 +35,21 @@
 
     <main>
       <section class="section glass viewer-shell">
-        <div class="section-tag" data-i18n="research.tag">Research Viewer</div>
-        <h1 id="viewerTitle">Research dossier</h1>
+        <div class="viewer-head">
+          <div class="viewer-label">
+            <div class="section-tag" data-i18n="research.tag">Research Viewer</div>
+            <h1 id="viewerTitle">Research dossier</h1>
+          </div>
+          <div class="viewer-actions">
+            <a class="cta secondary" href="index.html#research">← Back to Research Drop</a>
+            <a class="cta primary" id="downloadPdf" target="_blank" rel="noopener">Download PDF</a>
+            <a class="cta secondary" id="markdownLink" target="_blank" rel="noopener">Read Markdown</a>
+          </div>
+        </div>
         <p class="section-intro" id="viewerDescription">
           Browse the PDF right here—no new tab required. Use the buttons below to download or jump back
           to the Markdown brief whenever you want.
         </p>
-        <div class="viewer-actions">
-          <a class="cta secondary" href="index.html#research">← Back to Research Drop</a>
-          <a class="cta primary" id="downloadPdf" target="_blank" rel="noopener">Download PDF</a>
-          <a class="cta secondary" id="markdownLink" target="_blank" rel="noopener">Read Markdown</a>
-        </div>
         <div class="pdf-wrapper">
           <iframe id="viewerFrame" title="Research PDF" loading="lazy"></iframe>
         </div>
