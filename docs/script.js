@@ -409,7 +409,12 @@ function setupStandaloneViewer() {
   if (!shell) return;
 
   const params = new URLSearchParams(window.location.search);
-  const slug = params.get("file") || "high-growth";
+  let slug = params.get("file");
+  if (!slug) {
+    const hash = window.location.hash.replace("#", "").trim();
+    if (hash) slug = hash;
+  }
+  slug = slug || "high-growth";
   const entry = pdfEntries[slug] || pdfEntries["high-growth"];
 
   const titleEl = document.getElementById("viewerTitle");
