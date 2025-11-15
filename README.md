@@ -43,7 +43,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
       <code>investment/high-growth-stocks.md</code>
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
-      <a href="https://earn.lazying.art/research-viewer.html">View on-site →</a><br/>
+      <a href="https://earn.lazying.art/pdf-viewer.html?file=high-growth">View on-site →</a><br/>
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Download on GitHub →</a><br/>
       <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
     </td>
@@ -57,6 +57,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
       <code>investment/financial_freedom.md</code>
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://earn.lazying.art/pdf-viewer.html?file=financial-freedom">View on-site →</a><br/>
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/financial_freedom/financial_freedom.pdf">Download on GitHub →</a><br/>
       <code>investment_pdfs/financial_freedom/financial_freedom.pdf</code>
     </td>

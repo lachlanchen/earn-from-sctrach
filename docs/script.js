@@ -100,6 +100,10 @@ const fallbackStrings = {
   "research.stat1": `tickers`,
   "research.stat2": `ranking tables`,
   "research.stat3": `page PDF`,
+  "research.asset1Title": `High-growth dossier`,
+  "research.asset1Desc": `Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semiconductors, clean energy, cloud) with upside tables and annotated sources.`,
+  "research.asset2Title": `Financial freedom playbook`,
+  "research.asset2Desc": `Timeless principles blended with modern automation ideas—capital allocation tables, quarterly rituals, and name ideas for future Lazy Money drops.`,
   "form.success": `Invite sent to {{email}}. Expect a lazy hello soon.`,
 };
 
@@ -136,6 +140,25 @@ const languageSelect = document.getElementById("language-select");
 const form = document.querySelector(".cta-form");
 const parallaxItems = document.querySelectorAll(".orb, .hero-card");
 
+const pdfEntries = {
+  "high-growth": {
+    title: "High-growth dossier",
+    description:
+      "Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semiconductors, clean energy, cloud) with upside tables and annotated sources.",
+    pdf: "investment_pdfs/high-growth-stocks/high-growth-stocks.pdf",
+    download: "investment_pdfs/high-growth-stocks/high-growth-stocks.pdf",
+    markdown: "https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md",
+  },
+  "financial-freedom": {
+    title: "Financial freedom playbook",
+    description:
+      "Timeless principles blended with modern automation ideas—capital allocation tables, quarterly rituals, and name ideas for future Lazy Money drops.",
+    pdf: "investment_pdfs/financial_freedom/financial_freedom.pdf",
+    download: "investment_pdfs/financial_freedom/financial_freedom.pdf",
+    markdown: "https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom.md",
+  },
+};
+
 (async function initLazyEarn() {
   await loadTranslations();
   initializeLanguage();
@@ -144,6 +167,7 @@ const parallaxItems = document.querySelectorAll(".orb, .hero-card");
   setupSmoothScroll();
   setupObserver();
   setupParallax();
+  setupStandaloneViewer();
   setFooterYear();
 })();
 
@@ -378,6 +402,28 @@ function setupParallax() {
       item.style.transform = `translate(${x * 0.8}px, ${y * 0.8}px)`;
     });
   });
+}
+
+function setupStandaloneViewer() {
+  const shell = document.querySelector(".viewer-shell");
+  if (!shell) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("file") || "high-growth";
+  const entry = pdfEntries[slug] || pdfEntries["high-growth"];
+
+  const titleEl = document.getElementById("viewerTitle");
+  const descEl = document.getElementById("viewerDescription");
+  const frameEl = document.getElementById("viewerFrame");
+  const downloadEl = document.getElementById("downloadPdf");
+  const markdownEl = document.getElementById("markdownLink");
+
+  if (titleEl) titleEl.textContent = entry.title;
+  if (descEl) descEl.textContent = entry.description;
+  if (frameEl) frameEl.setAttribute("src", entry.pdf);
+  if (downloadEl) downloadEl.setAttribute("href", entry.download);
+  if (markdownEl) markdownEl.setAttribute("href", entry.markdown);
+  document.title = `${entry.title} · earn.lazying.art`;
 }
 
 function setFooterYear() {
