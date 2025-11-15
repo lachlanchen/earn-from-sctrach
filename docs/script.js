@@ -207,12 +207,23 @@ function initializeLanguage() {
   const initial = stored && translationsData[stored] ? stored : detected;
   currentLanguage = translationsData[initial] ? initial : "en";
   applyTranslations();
-  if (languageSelect) {
-    languageSelect.value = currentLanguage;
-    languageSelect.addEventListener("change", (event) => {
-      setLanguage(event.target.value);
+  hookLanguageSelect(languageSelect);
+  const viewerSelect = document.getElementById("viewer-language");
+  hookLanguageSelect(viewerSelect);
+}
+
+function hookLanguageSelect(selectEl) {
+  if (!selectEl) return;
+  selectEl.value = currentLanguage;
+  selectEl.addEventListener("change", (event) => {
+    setLanguage(event.target.value);
+    const mirrors = document.querySelectorAll("#language-select, #viewer-language");
+    mirrors.forEach((node) => {
+      if (node && node !== event.target) {
+        node.value = currentLanguage;
+      }
     });
-  }
+  });
 }
 
 function detectLanguage() {
