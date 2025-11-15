@@ -573,7 +573,8 @@ body::before {
 }
 
 .viewer-shell {
-  margin-top: 2rem;
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
 .viewer-actions {
