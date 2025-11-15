@@ -36,7 +36,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
   </tr>
   <tr>
     <td style="padding:10px 8px;">
-      Narrative rundowns for nine high-growth U.S. equities (AI, biotech, semiconductors, clean energy, cloud) with upside tables and annotated sources.
+      **High Growth Dossier:** Narrative rundowns for nine U.S. equities (AI, biotech, semiconductors, clean energy, cloud) with upside tables and annotated sources.
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/high-growth-stocks.md">Read the brief →</a><br/>
@@ -44,8 +44,21 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://earn.lazying.art/research-viewer.html">View on-site →</a><br/>
-      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Open on GitHub →</a><br/>
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/high-growth-stocks/high-growth-stocks.pdf">Download on GitHub →</a><br/>
       <code>investment_pdfs/high-growth-stocks/high-growth-stocks.pdf</code>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:10px 8px;">
+      **Financial Freedom Playbook:** Timeless principles + modern strategies for building passive income, capital allocation, and quarterly rituals that keep Lazy Money goals on track.
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom.md">Read the guide →</a><br/>
+      <code>investment/financial_freedom.md</code>
+    </td>
+    <td style="padding:10px 8px; white-space:nowrap;">
+      <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment_pdfs/financial_freedom/financial_freedom.pdf">Download on GitHub →</a><br/>
+      <code>investment_pdfs/financial_freedom/financial_freedom.pdf</code>
     </td>
   </tr>
 </table>
