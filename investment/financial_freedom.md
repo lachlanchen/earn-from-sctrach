@@ -1,5 +1,7 @@
 # Infinite Lounge: A Lazy Money Field Guide
 
+_Author: LayzingArt_
+
 This dossier is the complementary chapter to the high-growth report: it explains how to layer **Lazy Money**, **Lazy Earn**, and **Earn From Scratch** into a single runway toward financial freedom. Every tactic is chosen for people who want wealth to feel like a spa itinerary, not a calendar full of back-to-back hustles.
 
 ---
