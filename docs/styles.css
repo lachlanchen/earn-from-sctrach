@@ -95,7 +95,7 @@ body::before {
 }
 
 .hero {
-  padding: 4rem clamp(1.5rem, 4vw, 5rem) 3rem;
+  padding: 3rem clamp(1.5rem, 4vw, 5rem) 2rem;
 }
 
 .top-nav {
@@ -574,7 +574,7 @@ body::before {
 
 .viewer-shell {
   margin-top: 0;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 .viewer-actions {
