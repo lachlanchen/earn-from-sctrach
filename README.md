@@ -61,7 +61,7 @@ Earn.lazying.art is a cinematic field guide for anyone who wants money to feel l
   <tr>
     <td style="padding:10px 8px;">
       <strong>Financial Freedom Playbook · 中文</strong><br/>
-      中文长篇：细腻讲解理性消费、复利投资、多元收入与自动化工具的组合，并附 Lazy Money 风格的资本分配与季度仪式。
+      细腻讲解理性消费、复利投资、多元收入与自动化工具的组合，并附 Lazy Money 风格的资本分配与季度仪式。
     </td>
     <td style="padding:10px 8px; white-space:nowrap;">
       <a href="https://github.com/lachlanchen/LazyEarn/blob/main/investment/financial_freedom_zh.md">Markdown →</a>
